@@ -1,0 +1,362 @@
+@media all and (min-width:768px){
+    .pc{display: block;}
+    .mo{display: none;}
+
+
+    header{
+        position: fixed;
+        z-index: 2;
+        height: auto;
+    }
+
+
+    .heWrap{
+        width: 70%;
+        height: 80%;
+        margin: auto auto;
+        padding-top: 10px;
+        position: relative;
+        padding-bottom: 10px;
+        height: auto;
+    }
+
+    h1 img{
+        width: 100px;
+        max-width: 100px;
+    }
+    .ez{
+        position: unset;
+        background-color: transparent;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .util{
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        right: 0%;
+    }
+
+
+    .gnb{
+        flex-direction: row;
+        margin-top: 0;
+        position: absolute;
+        top: 10px;
+        left: 15%;
+    }
+    
+    .gnb li{
+        padding: 20px 20px;
+        background-color: transparent;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .cart{
+        width: 40px;
+        padding-top: 15px;
+    }
+    header .hem{
+        width: 40px!important ;
+    }
+    
+    
+    .search{
+        position: relative;
+        width: 30%;
+        margin: 0 10px;
+        margin-left: auto;
+        padding-top: 15px;
+    }
+    
+    .search input{
+        width: 100%;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    .search img{
+        width: 16px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 3px;
+        padding-top: 15px;
+    }
+ 
+
+/* ---------------- */
+
+
+main{
+    padding-top: 0;
+}
+main .bnWrap{
+    width: 60%;
+    padding-top: 40px;
+}
+
+main .prev{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+main .next{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+
+/* ------------------- */
+
+h2{
+    padding-top: 40px;
+    font-size: 26px;
+}
+/* //////////////////////////////////// */
+
+.s1{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.s1 h2{
+    padding-top: 100px;
+}
+.good{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 80px 20px;
+    padding-top: 20px;
+    padding-left: 65px;
+    width: 90%;
+}
+.s1 .goList{
+    order: 0;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    width: 30%;
+
+}
+.goCon .slick-dots{
+    font-size: 14px;
+}
+
+.goCon{
+    width: 100%;
+    position: relative;
+}
+
+.goCon .slick-list{
+    margin-left: auto;
+    border: 0;
+    width: 70%;
+    
+
+}
+
+.goCon .slick-dots{
+    width: 28%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -20px; /*이 값 수정 */
+}
+
+.goCon .slick-dots li a{
+    text-align: center !important;
+    display: block;
+
+}
+
+.goTxt{
+    margin-left: 10px;
+}
+.goTxt h4{
+    font-size: 16px;
+}
+.goTxt p{
+    font-size: 14px;
+}
+
+
+/* //////////////////////////////////// */
+.s2 ul{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom : 40px;
+}
+.s2 ul li{
+    width: 23%;
+}
+
+.s2 h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.s2 p{
+    font-size: 14px;
+}
+
+.s2 .red{
+    font-size: 14px;
+}
+
+
+.s3{
+    padding-top: 100px;
+}
+
+.s4{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.s3, .s4{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.s3 h4 , .s4 h4{
+    font-size: 16px;
+}
+.s3 p{
+    font-size: 18px;
+}
+
+.new{
+    margin-top: 30px;
+}
+
+.sNe{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+.sPr{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.tr{
+    font-size: 20px;
+}
+
+/* ......................... */
+
+.s5{
+ padding: 40px 0;
+}
+/*  */
+
+
+
+.s6Wrap{
+    padding: 25px;
+    width: 60%;
+}
+.s6 .blog{
+    border-radius: 50px;
+}
+.s6 .txt{
+   padding: 25px;
+}
+.s6 .txt h4{
+    font-size: 18px;
+    color: #008600;
+}
+
+.s6 .txt p{
+    color: #444;
+}
+.s6 .pc{
+    margin-top: 10px;
+}
+
+
+.s6 .bl2{
+    margin-top: 80px;
+}
+
+.s6 .bl4{
+    margin-top: 80px;
+}
+/* ////////////////////////// */
+
+.s7{
+    padding: 100px 0;
+}
+
+/* //////////////*/
+
+
+.fmu{
+    font-size: 14px;
+}
+
+.plus{
+    width: 40%;
+    margin: 20px auto;
+    padding-top: 40px;
+    border: 0;
+    font-size: 10px;
+}
+
+.email{
+    margin: 30px auto;
+    width: 70%;
+}
+.email h3{
+    font-size: 24px;
+    font-weight: 200;
+    color: #333;
+    margin-bottom: 20px;
+}
+.email .con{
+    display: flex;
+    justify-content: center;
+}
+
+.email .box{
+    background-color: #fff;
+    width: 78%;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 40PX;
+    margin-right: 10px;
+}
+.email .box::placeholder{
+    text-align: center;
+}
+.email .boxS{
+    background-color: #008600;
+    border-radius: 40px;
+    padding: 4px 10px;
+    width: 18%;
+    color: #fff;
+    font-weight: 800;
+}
+
+.last{
+    font-size: 18px;
+}
+
+
+
+} /* 지우면 안댐 @이거임 */

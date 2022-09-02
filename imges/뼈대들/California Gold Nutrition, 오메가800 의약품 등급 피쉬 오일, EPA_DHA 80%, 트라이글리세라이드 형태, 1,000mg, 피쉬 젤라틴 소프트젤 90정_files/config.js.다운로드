@@ -1,0 +1,6 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C7O3730FLK2NRAISPCK0").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":true,"auto_phone_number":true});
+window[window["TiktokAnalyticsObject"]].instance("C7O3730FLK2NRAISPCK0").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C7O3730FLK2NRAISPCK0").setPixelInfo({status: 0, name: "iHerb 2022 Pixel", advertiserID: "7055774806066741249", setupMode: 1, partner: "", is_onsite: false });
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("iherb.com");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
+window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(true);
